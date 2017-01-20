@@ -31,8 +31,29 @@ int main()
 void seperateInt(string& myString, int& value)
 {
 
+    char holdChar;
     int count = 0;
-    while( )
+    int index;
+
+    while( myString[count] != '\0' && count < 100)
+    {
+
+        holdChar = myString[count]; // using a holdChar to convert char to decimal value
+
+        index = holdChar;
+
+        if( holdChar >= 48 && holdChar <= 57 )
+        {
+
+
+
+
+        }
+
+        count++;
+
+    }
+
 
 }
 
